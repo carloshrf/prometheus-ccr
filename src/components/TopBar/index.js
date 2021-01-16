@@ -5,9 +5,10 @@ import {
   NavbarContainer,
   NavbarList,
   NavbarListItem,
-  LoginArea,
-  LoginButton,
+  NavbarListItemLogin,
   NavbarLogo,
+  DropdownLogin,
+  DropdownLoginItem,
 } from "./styles";
 
 const TopBar = () => {
@@ -19,11 +20,14 @@ const TopBar = () => {
           <NavbarListItem>Home</NavbarListItem>
           <NavbarListItem>Quem Somos</NavbarListItem>
           <NavbarListItem>Contato</NavbarListItem>
-        </NavbarList>
+          <NavbarListItemLogin>Entrar
+            <DropdownLogin>
+              <DropdownLoginItem>Cadastrar</DropdownLoginItem>
+              <DropdownLoginItem>Já sou Cadastrado</DropdownLoginItem>
+            </DropdownLogin>
+          </NavbarListItemLogin>
 
-        <LoginArea>
-          <LoginButton>Entrar</LoginButton>
-        </LoginArea>
+        </NavbarList>
       </NavbarContainer>
     </Navbar>
   );
