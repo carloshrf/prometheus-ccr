@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-
 import Home from './pages/Home';
+import CreateAccount from './pages/CreateAccount';
 import GlobalStyles from './styles/Global'
 
 function App() {
   return (
     <>
-      <Home />
+      <CreateAccount />
       <GlobalStyles />
     </>
   );
