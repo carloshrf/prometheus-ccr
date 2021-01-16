@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "title": "Web Development",
+      "author": "Fred Flinston",
+      "id": 1
+    }
+  ]
+}
