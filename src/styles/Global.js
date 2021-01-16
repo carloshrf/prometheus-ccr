@@ -9,8 +9,17 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   } 
 
-  span, p, h1 {
-    font-size: 26px;
+  span, p, h1, a {
+    font-family: Poppins, sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  span, p, a {
+    font-size: 18px;
   }
 `;
 
