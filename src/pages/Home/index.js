@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container } from './styles';
 
+import api from '../../services/api';
+import TopBar from '../../components/TopBar';
+
 const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <TopBar />
     </Container>
   )
 }
