@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🔥PROMETHEUS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação desenvolvida como solução para a segunda edição do Hackathon da CCR. 
 
-## Available Scripts
+O propósito do PROMETHEUS é desenvolver jovens através do conhecimento e torná-los mais qualificados e atrativos para o mercado de trabalho. O primeiro passo é a divulgação de cursos gratuitos de instituições culturais que muitas vezes recebem pouca divulgação e acabam subocupados. 
 
-In the project directory, you can run:
+Porém, sabemos que cursos gratuitos não são a totalidade do ensino. Por isso, permitiremos a exibição de alguns cursos pagos, inclusive universitários, sempre num valor que caiba no bolso do nosso público-alvo, de forma a complementar nossa oferta de cursos.
 
-### `yarn start`
+A partir dos interesses e empenho de cada usuário, conseguiremos não só exibir os cursos patrocinados mais relevantes, como também direcioná-los para empresas parceiras e recrutadores que estão em busca de jovens talentosos e com alto potencial, lá também será possível identificar quais requisitos ainda lhe faltam e encontrar mais cursos que possam ajudá-lo,  diminuindo assim, o custo com recrutamento de seus funcionários.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📁Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📘 ReactJS
 
-### `yarn test`
+## Sobre
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O grupo foi formado pelos seguintes:
 
-### `yarn build`
+<p align="center">
+<iframe src="https://drive.google.com/file/d/1nwHeft-2U6jET1UM5QTQ2T0XagzrqtVO/preview" width="640" height="480"></iframe>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Todo o código foi desenvolvido por mim e pelo João Victor [(itsJoaoVictor)](https://github.com/itsJoaoVictor)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como executar?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+É necessário ter instalado o node e o yarn (ou npm que já acompanha na instalação do node). 
 
-### `yarn eject`
+Clonar o repositório e em cada pasta (web, server, mobile) executar pelo prompt 
+```bash
+yarn
+```
+ou
+```bash
+npm install 
+```
+para que então os repositórios necessários sejam baixados. Para executar os projetos web e server, basta em sua raiz executar 
+```bash
+yarn start ou npm start
+```
+De acordo com o projeto, originalmente os serviços, backend e frontend serão executados no endereço local nas portas 3333 e 3000 respectivamente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Abaixo seguem algumas amostras das telas web.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="center">
+<img  src="https://lh6.googleusercontent.com/wOo9-rnpXGo8HSJPWHEyx1XuZWkZ90QvvkGd6tfqBvjq2bR3O2O_x0GWGKwg8mr0T4uhpwgImXUqa7DFPyG2=w1366-h609-rw"  width="600"/>
+</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br />
+<center>Made with ❤️ by team 170 (ccr 2ª ed)</center>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
