@@ -24,12 +24,19 @@ import {
   CardJobTitle,
   CardJobContent,
   CardJobButton,
-  DuoSection
+  DuoSection,
+  CardNumbers,
+  CardSubtitle,
+  CardNumbersContent,
+  SectionImages,
 } from "./styles";
 
-import profileIcon from "../../assets/icons/person-circle.svg";
-import fireIcon from "../../assets/icons/fire.svg";
-import bookmarkIcon from "../../assets/icons/bookmark.svg";
+import exampleIcon from "../../assets/icons/example.svg";
+import pencilIcon from "../../assets/icons/pencil.svg";
+import plusIcon from "../../assets/icons/plus.svg";
+import mostAccessedsImg from "../../assets/images/mostaccesseds.svg";
+import accessesImg from "../../assets/images/accesses.svg";
+import accessesTwoImg from "../../assets/images/accessestwo.svg";
 
 import { SliderItem } from "../../components/Carousel/styles";
 
@@ -41,21 +48,21 @@ const User = () => {
       <ProfileArea>
         <ProfileContainer>
           <ProfilePicture>
-            <img src={profileIcon} alt="Foto do Perfil" />
+            <img src={exampleIcon} alt="Foto do Perfil" />
           </ProfilePicture>
           <ProfileText>
-            <ProfileTitle>
-              Luana Silva{" "}
-              <ProfilePoints>
-                15 <img src={fireIcon} alt="Pontos" />
-              </ProfilePoints>
-            </ProfileTitle>
-            <ProfileDescription>
-              23 anos - Formada em Secretáriado
-            </ProfileDescription>
+            <ProfileTitle>Anhambi Morumbi </ProfileTitle>
+            <ProfileDescription>16 cursos na plataforma</ProfileDescription>
           </ProfileText>
         </ProfileContainer>
-        <ProfileEdit>Editar Perfil</ProfileEdit>
+        <ProfileEdit>
+          <img src={plusIcon} alt="Ícone de Criar Curso" />
+          &nbsp; Criar Curso
+        </ProfileEdit>
+        <ProfileEdit>
+          <img src={pencilIcon} alt="Ícone de Editar Perfil" />
+          &nbsp; Editar Perfil
+        </ProfileEdit>
       </ProfileArea>
 
       <ContentSection>
@@ -132,16 +139,27 @@ const User = () => {
       <DuoSection>
         <ContentSection>
           <SectionTitle>Seus cursos mais acessados:</SectionTitle>
+          <img src={mostAccessedsImg} alt="Diagrama de cursos mais acessados" />
         </ContentSection>
 
         <ContentSection>
           <SectionTitle>Números totais:</SectionTitle>
+          <CardNumbers>
+            <CardSubtitle>Alunos Inscritos</CardSubtitle>
+            <CardNumbersContent>1000</CardNumbersContent>
+            <CardSubtitle>Visualizações Totais</CardSubtitle>
+            <CardNumbersContent>1800</CardNumbersContent>
+          </CardNumbers>
         </ContentSection>
       </DuoSection>
 
       <DuoSection>
         <ContentSection>
           <SectionTitle>Quem mais acessa seus cursos:</SectionTitle>
+          <SectionImages>
+            <img src={accessesImg} alt="" />
+            <img src={accessesTwoImg} alt="" />
+          </SectionImages>
         </ContentSection>
       </DuoSection>
 
