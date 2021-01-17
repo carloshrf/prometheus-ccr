@@ -1,10 +1,10 @@
-import CoursePage from './pages/CoursePage';
+import CompanySubscription from './pages/CompanySubscription';
 import GlobalStyles from './styles/Global'
 
 function App() {
   return (
     <>
-      <CoursePage />
+      <CompanySubscription />
       <GlobalStyles />
     </>
   );

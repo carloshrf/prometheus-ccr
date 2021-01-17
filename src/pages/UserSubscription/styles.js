@@ -149,6 +149,10 @@ export const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  & > button > span {
+    padding: 0 40px;
+  }
   
   div {
     display: flex;
