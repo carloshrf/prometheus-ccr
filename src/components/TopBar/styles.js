@@ -18,14 +18,17 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavbarLogo = styled.div`
-  font-size: 24px;
-  font-weight: 700;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: right;
   margin: 0 40px;
-  color: #575757;
+
+  span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #575757;
+  }
 `;
 
 export const NavbarList = styled.ul`
@@ -47,14 +50,17 @@ export const NavbarList = styled.ul`
 
 export const NavbarListItem = styled.li`
   text-decoration: none;
-  font-size: 14px;
   display: block;
-  height: 60px;
   line-height: 60px;
   cursor: pointer;
   padding: 0 15px;
-  color: #000;
   transition: background-color 0.3s;
+
+  a {
+    color: #000;
+    height: 60px;
+    font-size: 14px;
+  }
 
   &:hover {
     background-color: #E5E5E5;
@@ -92,9 +98,14 @@ export const DropdownLogin = styled.ul`
 export const DropdownLoginItem = styled.li`
   width: 100%;
   clear: both;
-  text-align: center;
+  text-align: left;
   transition: background-color 0.4s;
   padding: 0 20px;
+
+  a {
+    width: 100%;
+    font-size: 16px;
+  }
 
   &:hover {
     background-color: #454150;

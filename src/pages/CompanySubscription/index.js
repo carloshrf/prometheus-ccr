@@ -18,7 +18,7 @@ import Button from '../../components/Button';
 import Input from '../../components/Input';
 import Footer from '../../components/Footer';
 
-const CreateAccount = () => {
+const CompanySubscription = () => {
 
   const states = [
     'Acre',
@@ -45,6 +45,8 @@ const CreateAccount = () => {
     'Osasco',
     'Sorocaba'
   ];
+
+  document.title="Cadastro de parceiro";
 
   return (
     <Container>
@@ -123,4 +125,4 @@ const CreateAccount = () => {
   );
 }
 
-export default CreateAccount;
+export default CompanySubscription;

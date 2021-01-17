@@ -9,6 +9,14 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  a {
+  }
+
+  a, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
   body {
     /* background-color: #E5E5E5; */
   }

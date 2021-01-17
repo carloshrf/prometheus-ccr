@@ -2,7 +2,7 @@ import React from 'react';
 
 import { InputItem } from './styles';
 
-const Input = ({ width, gridArea, placeholder, type = "text", id, value, name }) => {
+const Input = ({ width, gridArea, placeholder, type = "text", id, value, name, checked, onChange}) => {
 
   return (
     <InputItem 
@@ -13,6 +13,8 @@ const Input = ({ width, gridArea, placeholder, type = "text", id, value, name })
       placeholder={placeholder} 
       width={width} 
       gridArea={gridArea} 
+      checked={checked}
+      onChange={onChange}
     />
   );
 }

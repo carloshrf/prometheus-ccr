@@ -32,6 +32,9 @@ import fireIcon from "../../assets/icons/fire.svg";
 import backIcon from "../../assets/icons/back.svg";
 
 const Jobs = () => {
+
+  document.title="Vagas";
+
   return (
     <>
       <TopBar />

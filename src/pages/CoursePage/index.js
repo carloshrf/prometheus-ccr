@@ -4,6 +4,7 @@ import Banner from '../../components/Banner';
 import Reputation from '../../components/Reputation';
 import BannerButton from '../../components/Button/BannerButton';
 import Button from '../../components/Button';
+import TopBar from '../../components/TopBar';
 
 import bookMark from '../../assets/images/bookmark.png';
 import mappinImg from '../../assets/images/map-pin.png';
@@ -15,8 +16,11 @@ import { Container, Content, ButtonContainer, Description, DescriptionMain, Desc
 
 const CoursePage = () => {
 
+  document.title="Curso";
+
   return (
     <Container>
+      <TopBar />
       <Banner />
 
       <Content>

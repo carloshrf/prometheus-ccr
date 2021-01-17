@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from 'react-router-dom';
+
 import {
   Navbar,
   NavbarContainer,
@@ -14,16 +16,18 @@ import {
 const TopBar = () => {
   return (
     <Navbar>
-      <NavbarLogo>Prometheus</NavbarLogo>
+      <NavbarLogo><span>Prometheus</span></NavbarLogo>
       <NavbarContainer>
         <NavbarList>
-          <NavbarListItem>Home</NavbarListItem>
-          <NavbarListItem>Quem Somos</NavbarListItem>
-          <NavbarListItem>Contato</NavbarListItem>
+          <NavbarListItem><Link to="/">Home</Link></NavbarListItem>
+          <NavbarListItem><Link to="/">Quem Somos</Link></NavbarListItem>
+          <NavbarListItem><Link to="/">Contato</Link></NavbarListItem>
           <NavbarListItemLogin>Entrar
             <DropdownLogin>
-              <DropdownLoginItem>Cadastrar</DropdownLoginItem>
-              <DropdownLoginItem>Já sou Cadastrado</DropdownLoginItem>
+              <DropdownLoginItem><Link to="cadastrar-usuario">cadastrar</Link></DropdownLoginItem>
+              <DropdownLoginItem><Link to="entrar">já sou cadastrado</Link></DropdownLoginItem>
+              <DropdownLoginItem><Link to="">empresas parceiras</Link></DropdownLoginItem>
+              <DropdownLoginItem><Link to="cadastrar-parceiro">quero ser uma empresa parceira</Link></DropdownLoginItem>
             </DropdownLogin>
           </NavbarListItemLogin>
 

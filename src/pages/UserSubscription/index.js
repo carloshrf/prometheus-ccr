@@ -24,7 +24,7 @@ import SubmitItemButton from '../../components/Button/SubmitItemButton';
 import Input from '../../components/Input';
 import Footer from '../../components/Footer';
 
-const CreateAccount = () => {
+const UserSubscription = () => {
 
   return (
     <Container>
@@ -171,4 +171,4 @@ const CreateAccount = () => {
   );
 }
 
-export default CreateAccount;
+export default UserSubscription;

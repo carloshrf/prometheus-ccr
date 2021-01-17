@@ -68,11 +68,22 @@ export const ProfileEdit = styled.p`
   margin-top: 200px;
   cursor: pointer;
   font-size: 16px;
-  color: #E5E5E5;
+  color: #e5e5e5;
   transition: color 0.2s;
 
   &:hover {
-    color: #000;
+    color: #000000;
+  }
+`;
+
+export const DuoSection = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+
+  section:last-child {
+    margin-right: 100px;
   }
 `;
 
@@ -81,6 +92,7 @@ export const ContentSection = styled.section`
   flex-direction: column;
   padding: 40px 0;
 `;
+
 export const SectionTitle = styled.h1`
   text-transform: uppercase;
   padding: 40px;
@@ -115,11 +127,11 @@ export const CardWrapper = styled.div`
   display: flex;
   align-items: flex-end;
   padding: 35px;
-  transition: opacity .3s;
-  
+  transition: opacity 0.3s;
+
   &:hover,
   &:focus {
-    opacity: .8;
+    opacity: 0.8;
 
     p {
       visibility: visible;
@@ -128,7 +140,7 @@ export const CardWrapper = styled.div`
   }
 `;
 
-export const CardContainer = styled.h1`
+export const CardContainer = styled.div`
   width: 100%;
 `;
 
@@ -155,7 +167,8 @@ export const CardWrapperJob = styled.div`
   justify-content: center;
   width: 390px;
   height: 303px;
-  background: linear-gradient(180deg, #E9C5FF 0%, rgba(255, 255, 255, 0) 100%), #F9F9F9;
+  background: linear-gradient(180deg, #e9c5ff 0%, rgba(255, 255, 255, 0) 100%),
+    #f9f9f9;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   position: relative;
@@ -163,15 +176,15 @@ export const CardWrapperJob = styled.div`
   align-items: center;
   text-align: center;
   padding: 35px;
-  transition: opacity .3s;
-  
+  transition: opacity 0.3s;
+
   &:hover,
   &:focus {
-    opacity: .8;
+    opacity: 0.8;
   }
 `;
 
-export const CardJobContainer = styled.h1`
+export const CardJobContainer = styled.div`
   width: 100%;
 `;
 
@@ -198,4 +211,37 @@ export const CardJobButton = styled.button`
   width: 200px;
   margin-top: 20px;
   cursor: pointer;
+`;
+
+export const CardNumbers = styled.div`
+  font-family: Poppins;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 361px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #575757;
+  text-transform: uppercase;
+`;
+
+export const CardNumbersContent = styled.h1`
+  padding: 5px;
+  font-size: 50px;
+`;
+
+export const CardSubtitle = styled.p`
+  font-size: 20px;
+`;
+
+export const SectionImages = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
 `;

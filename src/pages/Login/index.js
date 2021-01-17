@@ -1,24 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { 
   Container, 
   Content, 
   RegisterContent, 
   RegisterContainer, 
-  CompanyData,
-  MoreInfo,
-  LocalizationTag,
-  Localization,
-  EmailField,
   Advice,
   ButtonsContainer
 } from './styles';
+
+import { useHistory } from 'react-router-dom';
 
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 import Footer from '../../components/Footer';
 
-const CreateAccount = () => {
+const Login = () => {
+  const [type, setTipe] = useState('fisical')
+
+  const history = useHistory();
+
+  const handleNavigate = (e) => {
+    e.preventDefault();
+
+    type === 'fisical'
+      ? history.push('/usuario')
+      : history.push('/parceiro')
+  }
+
+  document.title="Entrar";
 
   return (
     <Container>
@@ -28,7 +38,7 @@ const CreateAccount = () => {
           
           <h1>Faça login:</h1>
 
-          <RegisterContent>
+          <RegisterContent onSubmit={handleNavigate}>
             <div>
               <Input placeholder="e-mail" type="text" />
               <Input placeholder="senha" type="password"/>
@@ -38,16 +48,16 @@ const CreateAccount = () => {
 
               <div>
                 <label>
-                  <Input type="radio" name="type" value="fisical" />
+                  <Input type="radio" name="type" value="fisical" checked={type==='fisical'} onChange={() => setTipe('fisical')}/>
                   pessoa física
                 </label>
                 <label>
-                  <Input type="radio" name="type" value="legal" />
+                  <Input type="radio" name="type" value="legal" onChange={() => setTipe('legal')}/>
                   pessoa jurídica
               </label>
               </div>
               
-              <Button>terminei!</Button>
+              <Button type="submit">Entrar</Button>
             </ButtonsContainer>
             
           </RegisterContent>
@@ -59,4 +69,4 @@ const CreateAccount = () => {
   );
 }
 
-export default CreateAccount;
+export default Login;

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import TopBar from '../../components/TopBar';
 import Banner from '../../components/Banner';
 import Footer from '../../components/Footer';
 import logoImg from '../../assets/images/logo-ccr.png';
@@ -7,8 +8,12 @@ import logoImg from '../../assets/images/logo-ccr.png';
 import { Container, BelieveSection, PartnerCompaniesSection } from './styles';
 
 const Home = () => {
+
+  document.title="Home";
+
   return (
     <Container>
+      <TopBar />
       <Banner />
       <BelieveSection>
         <h1>O que acreditamos</h1>
