@@ -1,7 +1,7 @@
 import React from "react";
-import Slider from "react-slick";
 
 import TopBar from "../../components/TopBar";
+import Carousel from "../../components/Carousel";
 
 import {
   Container,
@@ -13,26 +13,30 @@ import {
   ProfilePoints,
   ProfileDescription,
   ProfileEdit,
-  ContentContainer,
+  ContentSection,
+  SectionTitle,
+  CardWrapper,
+  CardContainer,
+  CardTitle,
+  CardContent,
+  CardWrapperJob,
+  CardJobContainer,
+  CardJobTitle,
+  CardJobContent,
+  CardJobButton,
 } from "./styles";
 
 import profileIcon from "../../assets/icons/person-circle.svg";
 import fireIcon from "../../assets/icons/fire.svg";
+import bookmarkIcon from "../../assets/icons/bookmark.svg";
+
+import { SliderItem } from "../../components/Carousel/styles";
 
 const Profile = () => {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 500,
-  };
-
   return (
     <Container>
       <TopBar />
-      
+
       <ProfileArea>
         <ProfileContainer>
           <ProfilePicture>
@@ -53,28 +57,175 @@ const Profile = () => {
         <ProfileEdit>Editar Perfil</ProfileEdit>
       </ProfileArea>
 
-      <ContentContainer>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
-      </ContentContainer>
+      <ContentSection>
+        <SectionTitle>Cursos baseados nos seus interesses: </SectionTitle>
+        <Carousel>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+        </Carousel>
+      </ContentSection>
+
+      <ContentSection>
+        <SectionTitle><img src={bookmarkIcon} alt="Ícone de Cursos Salvos"/> Cursos que você salvou: </SectionTitle>
+        <Carousel>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapper>
+              <CardContainer>
+                <CardTitle>Hello World</CardTitle>
+                <CardContent>
+                  - à 5km de você
+                  <br />
+                  - perto do ponto de ônibus
+                  <br />
+                  - aulas presenciais
+                </CardContent>
+              </CardContainer>
+            </CardWrapper>
+          </SliderItem>
+        </Carousel>
+      </ContentSection>
+
+      <ContentSection>
+        <SectionTitle>Vagas em empresas parceiras:</SectionTitle>
+        <Carousel>
+          <SliderItem>
+            <CardWrapperJob>
+              <CardJobContainer>
+                <CardJobTitle>Hello World</CardJobTitle>
+                <CardJobContent>
+                  Empresa: Itaú<br />
+                  Principais requisitos
+                </CardJobContent>
+                <CardJobButton>Saiba Mais</CardJobButton>
+              </CardJobContainer>
+            </CardWrapperJob>
+          </SliderItem>
+        </Carousel>
+      </ContentSection>
     </Container>
   );
 };
