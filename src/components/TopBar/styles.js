@@ -54,6 +54,11 @@ export const NavbarListItem = styled.li`
   cursor: pointer;
   padding: 0 15px;
   color: #000;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #E5E5E5;
+  }
 `;
 
 export const NavbarListItemLogin = styled.li`
@@ -63,6 +68,7 @@ export const NavbarListItemLogin = styled.li`
   cursor: pointer;
   color: #000;
   padding: 0 20px;
+  transition: background-color 0.3s;
 
   &:hover {
     background-color: #E5E5E5;
