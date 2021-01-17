@@ -7,11 +7,9 @@ import {
   RegisterContainer, 
   CompanyData,
   MoreInfo,
-  // PersonData, 
   LocalizationTag,
   Localization,
   EmailField,
-  // TellAbout,
   Advice,
   ButtonsContainer
 } from './styles';

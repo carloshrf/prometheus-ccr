@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   } 
 
-  span, p, h1, a, label, select, textarea, li {
+  span, p, h1, a, label, select, textarea, li, input[type=text] {
     font-family: Poppins, sans-serif;
   }
 

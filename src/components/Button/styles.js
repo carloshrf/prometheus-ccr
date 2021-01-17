@@ -13,6 +13,8 @@ export const ButtonContainer = styled.button`
 
   cursor: pointer;
 
+  transition: box-shadow 0.8s;
+
   img {
     padding-right: 10px;
   }
@@ -21,5 +23,9 @@ export const ButtonContainer = styled.button`
     font-weight: bold;
     font-size: 20px;
     color: #F9F9F9;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 2px 3px #000;
   }
 `;

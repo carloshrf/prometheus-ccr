@@ -1,10 +1,10 @@
-import CompanySubscription from './pages/CompanySubscription';
+import Login from './pages/Login';
 import GlobalStyles from './styles/Global'
 
 function App() {
   return (
     <>
-      <CompanySubscription />
+      <Login />
       <GlobalStyles />
     </>
   );
