@@ -29,8 +29,11 @@ import Banner from "../../components/Banner";
 
 import fireIcon from "../../assets/icons/fire.svg";
 import backIcon from "../../assets/icons/back.svg";
+import { Link, useHistory } from 'react-router-dom';
 
 const Jobs = () => {
+
+  const history = useHistory();
 
   document.title="Vagas";
 
@@ -80,7 +83,7 @@ const Jobs = () => {
             </RequirementsContent>
           </RequirementsSection>
         </DuoSection>
-        <BackToUser>
+        <BackToUser onClick={() => history.push('/usuario')}>
           <img src={backIcon} alt="Ícone de Voltar" />
           &nbsp; Voltar a Página do Usuário
         </BackToUser>
@@ -91,65 +94,75 @@ const Jobs = () => {
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>

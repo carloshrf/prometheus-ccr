@@ -32,9 +32,17 @@ import fireIcon from "../../assets/icons/fire.svg";
 import bookmarkIcon from "../../assets/icons/bookmark.svg";
 import pencilIcon from "../../assets/icons/pencil.svg";
 
+import { Link, useHistory } from 'react-router-dom';
 import { SliderItem } from "../../components/Carousel/styles";
 
 const User = () => {
+  const history = useHistory();
+
+  function handleNavigate(e) {
+    e.preventDefault();
+    
+    history.push('/vagas');
+  }
 
   document.title="Perfil";
 
@@ -70,65 +78,75 @@ const User = () => {
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
@@ -144,65 +162,75 @@ const User = () => {
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
           <SliderItem>
             <CardWrapper>
               <CardContainer>
-                <CardTitle>Hello World</CardTitle>
-                <CardContent>
-                  - à 5km de você
-                  <br />
-                  - perto do ponto de ônibus
-                  <br />- aulas presenciais
-                </CardContent>
+                <Link to="/curso">
+                  <CardTitle>Hello World</CardTitle>
+                  <CardContent>
+                    - à 5km de você
+                    <br />
+                    - perto do ponto de ônibus
+                    <br />- aulas presenciais
+                  </CardContent>
+                </Link>
               </CardContainer>
             </CardWrapper>
           </SliderItem>
@@ -215,52 +243,60 @@ const User = () => {
           <SliderItem>
             <CardWrapperJob>
               <CardJobContainer>
-                <CardJobTitle>Hello World</CardJobTitle>
-                <CardJobContent>
-                  Empresa: Itaú
-                  <br />
-                  Principais requisitos
-                </CardJobContent>
-                <CardJobButton>Saiba Mais</CardJobButton>
+                <Link to="/parceiro">
+                  <CardJobTitle>Hello World</CardJobTitle>
+                  <CardJobContent>
+                    Empresa: Itaú
+                    <br />
+                    Principais requisitos
+                  </CardJobContent>
+                </Link>
+                <CardJobButton onClick={handleNavigate}>Saiba Mais</CardJobButton>
               </CardJobContainer>
             </CardWrapperJob>
           </SliderItem>
           <SliderItem>
             <CardWrapperJob>
               <CardJobContainer>
-                <CardJobTitle>Hello World</CardJobTitle>
-                <CardJobContent>
-                  Empresa: Itaú
-                  <br />
-                  Principais requisitos
-                </CardJobContent>
-                <CardJobButton>Saiba Mais</CardJobButton>
+                <Link to="/parceiro">
+                  <CardJobTitle>Hello World</CardJobTitle>
+                  <CardJobContent>
+                    Empresa: Itaú
+                    <br />
+                    Principais requisitos
+                  </CardJobContent>
+                </Link>
+                <CardJobButton onClick={handleNavigate}>Saiba Mais</CardJobButton>
               </CardJobContainer>
             </CardWrapperJob>
           </SliderItem>
           <SliderItem>
             <CardWrapperJob>
               <CardJobContainer>
-                <CardJobTitle>Hello World</CardJobTitle>
-                <CardJobContent>
-                  Empresa: Itaú
-                  <br />
-                  Principais requisitos
-                </CardJobContent>
-                <CardJobButton>Saiba Mais</CardJobButton>
+                <Link to="/parceiro">
+                  <CardJobTitle>Hello World</CardJobTitle>
+                  <CardJobContent>
+                    Empresa: Itaú
+                    <br />
+                    Principais requisitos
+                  </CardJobContent>
+                </Link>
+                <CardJobButton onClick={handleNavigate}>Saiba Mais</CardJobButton>
               </CardJobContainer>
             </CardWrapperJob>
           </SliderItem>
           <SliderItem>
             <CardWrapperJob>
               <CardJobContainer>
-                <CardJobTitle>Hello World</CardJobTitle>
-                <CardJobContent>
-                  Empresa: Itaú
-                  <br />
-                  Principais requisitos
-                </CardJobContent>
-                <CardJobButton>Saiba Mais</CardJobButton>
+                <Link to="/parceiro">
+                  <CardJobTitle>Hello World</CardJobTitle>
+                  <CardJobContent>
+                    Empresa: Itaú
+                    <br />
+                    Principais requisitos
+                  </CardJobContent>
+                </Link>
+                <CardJobButton onClick={handleNavigate}>Saiba Mais</CardJobButton>
               </CardJobContainer>
             </CardWrapperJob>
           </SliderItem>

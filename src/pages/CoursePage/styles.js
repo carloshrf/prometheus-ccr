@@ -16,6 +16,12 @@ export const ButtonContainer = styled.div`
 
   button + button {
     margin-left: 30px;
+    transition: color 0.4s;
+
+    &:hover {
+      background-color: #DEA8FF;
+      
+    }
   }
 `;
 

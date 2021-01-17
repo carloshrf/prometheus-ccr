@@ -10,11 +10,19 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: background-color 0.4s, color 0.4s;
 
   span {
     padding-right: 10px;
     font-weight: bold;
     font-size: 22px;
     color: #454150;
+  }
+
+  &:hover {
+    background-color: #454150;
+    span {
+      color: #e5e5e5;
+    }
   }
 `;

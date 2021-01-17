@@ -11,10 +11,18 @@ import mappinImg from '../../assets/images/map-pin.png';
 import certifiedImg from '../../assets/images/certified.png';
 import graphImg from '../../assets/images/graph.png';
 import backImg from '../../assets/images/back.png';
+import { useHistory } from 'react-router-dom';
 
 import { Container, Content, ButtonContainer, Description, DescriptionMain, DescriptionReputation, DescriptionInformations, DescriptionHowToSubscribe, BackButtonContainer } from './styles';
 
 const CoursePage = () => {
+  const history = useHistory();
+
+  function handleNavigation(e) {
+    e.preventDefault();
+
+    history.push('/usuario');
+  }
 
   document.title="Curso";
 
@@ -63,7 +71,7 @@ const CoursePage = () => {
         </Description>
 
         <BackButtonContainer>
-          <Button image={backImg}>VOLTAR A PÁGINA DO USUÁRIO</Button>
+          <Button image={backImg} onClick={handleNavigation}>VOLTAR A PÁGINA DO USUÁRIO</Button>
         </BackButtonContainer>
         
       </Content>
