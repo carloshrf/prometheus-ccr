@@ -6,10 +6,9 @@ import GlobalStyles from './styles/Global';
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      {/* <Profile /> */}
+      <Profile />
       {/* <User /> */}
-      <Jobs />
+      {/* <Jobs /> */}
       <GlobalStyles />
     </>
   );
