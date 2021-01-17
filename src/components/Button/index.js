@@ -2,10 +2,10 @@ import React from 'react' ;
 
 import { ButtonContainer } from './styles';
 
-const Button = ({ children }) => {
+const Button = ({ children, image }) => {
 
   return (
-    <ButtonContainer><span>{children}</span></ButtonContainer>
+    <ButtonContainer>{image && (<img src={image} alt="icone do botão"/>)}<span>{children}</span></ButtonContainer>
   );
 }
 

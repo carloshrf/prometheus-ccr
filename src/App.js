@@ -1,11 +1,10 @@
-import Home from './pages/Home';
-import CreateAccount from './pages/CreateAccount';
+import CoursePage from './pages/CoursePage';
 import GlobalStyles from './styles/Global'
 
 function App() {
   return (
     <>
-      <CreateAccount />
+      <CoursePage />
       <GlobalStyles />
     </>
   );

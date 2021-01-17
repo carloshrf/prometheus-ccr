@@ -1,17 +1,25 @@
 import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
-  width: 265px;
   height: 47px;
+
+  padding: 30px 20px;
 
   border-radius: 10px;
   background-color: #454150;
   border: none;
+  display: flex;
+  align-items: center;
 
   cursor: pointer;
+
+  img {
+    padding-right: 10px;
+  }
 
   span {
     font-weight: bold;
     font-size: 20px;
+    color: #F9F9F9;
   }
 `;

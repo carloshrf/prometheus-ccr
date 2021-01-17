@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   } 
 
-  span, p, h1, a, label, select, textarea {
+  span, p, h1, a, label, select, textarea, li {
     font-family: Poppins, sans-serif;
   }
 
@@ -20,6 +20,10 @@ const GlobalStyles = createGlobalStyle`
 
   span, p, a {
     font-size: 18px;
+  }
+
+  li {
+    list-style-type: none;
   }
 `;
 

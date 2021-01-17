@@ -159,8 +159,8 @@ const CreateAccount = () => {
 
         <ButtonsContainer>
           <div>
-            <SubmitItemButton buttonImage={userImg} />
-            <SubmitItemButton buttonImage={uploadImg} />
+            <SubmitItemButton label="colocar foto de perfil" buttonImage={userImg} />
+            <SubmitItemButton label="subir currículo" buttonImage={uploadImg} />
           </div>
           <Button>terminei!</Button>
         </ButtonsContainer>

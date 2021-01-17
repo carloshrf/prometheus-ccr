@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Button } from './styles';
 
-const SubmitItemButton = ({ buttonImage }) => {
+const SubmitItemButton = ({ label, buttonImage }) => {
 
   return (
-    <Button><span>Adicionar foto de perfil</span>{buttonImage && (<img src={buttonImage} alt="logo"/>)}</Button>
+    <Button><span>{label}</span>{buttonImage && (<img src={buttonImage} alt="logo"/>)}</Button>
   );
 }
 

@@ -75,7 +75,7 @@ export const Localization = styled.div`
       "neighborhood zipcode "
       "city state"
     ;
-grid-gap: 20px;
+    grid-gap: 20px;
 
   }
   
