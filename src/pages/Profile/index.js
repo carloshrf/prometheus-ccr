@@ -29,6 +29,7 @@ import {
 import profileIcon from "../../assets/icons/person-circle.svg";
 import fireIcon from "../../assets/icons/fire.svg";
 import bookmarkIcon from "../../assets/icons/bookmark.svg";
+import pencilIcon from "../../assets/icons/pencil.svg";
 
 import { SliderItem } from "../../components/Carousel/styles";
 
@@ -54,7 +55,9 @@ const Profile = () => {
             </ProfileDescription>
           </ProfileText>
         </ProfileContainer>
-        <ProfileEdit>Editar Perfil</ProfileEdit>
+        <ProfileEdit>
+          <img src={pencilIcon} alt="Ícone de Editar Perfil" />&nbsp; Editar Perfil
+        </ProfileEdit>
       </ProfileArea>
 
       <ContentSection>
@@ -68,8 +71,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -82,8 +84,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -96,8 +97,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -110,8 +110,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -124,8 +123,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -134,7 +132,10 @@ const Profile = () => {
       </ContentSection>
 
       <ContentSection>
-        <SectionTitle><img src={bookmarkIcon} alt="Ícone de Cursos Salvos"/> Cursos que você salvou: </SectionTitle>
+        <SectionTitle>
+          <img src={bookmarkIcon} alt="Ícone de Cursos Salvos" /> Cursos que
+          você salvou:{" "}
+        </SectionTitle>
         <Carousel>
           <SliderItem>
             <CardWrapper>
@@ -144,8 +145,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -158,8 +158,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -172,8 +171,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -186,8 +184,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -200,8 +197,7 @@ const Profile = () => {
                   - à 5km de você
                   <br />
                   - perto do ponto de ônibus
-                  <br />
-                  - aulas presenciais
+                  <br />- aulas presenciais
                 </CardContent>
               </CardContainer>
             </CardWrapper>
@@ -217,7 +213,47 @@ const Profile = () => {
               <CardJobContainer>
                 <CardJobTitle>Hello World</CardJobTitle>
                 <CardJobContent>
-                  Empresa: Itaú<br />
+                  Empresa: Itaú
+                  <br />
+                  Principais requisitos
+                </CardJobContent>
+                <CardJobButton>Saiba Mais</CardJobButton>
+              </CardJobContainer>
+            </CardWrapperJob>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapperJob>
+              <CardJobContainer>
+                <CardJobTitle>Hello World</CardJobTitle>
+                <CardJobContent>
+                  Empresa: Itaú
+                  <br />
+                  Principais requisitos
+                </CardJobContent>
+                <CardJobButton>Saiba Mais</CardJobButton>
+              </CardJobContainer>
+            </CardWrapperJob>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapperJob>
+              <CardJobContainer>
+                <CardJobTitle>Hello World</CardJobTitle>
+                <CardJobContent>
+                  Empresa: Itaú
+                  <br />
+                  Principais requisitos
+                </CardJobContent>
+                <CardJobButton>Saiba Mais</CardJobButton>
+              </CardJobContainer>
+            </CardWrapperJob>
+          </SliderItem>
+          <SliderItem>
+            <CardWrapperJob>
+              <CardJobContainer>
+                <CardJobTitle>Hello World</CardJobTitle>
+                <CardJobContent>
+                  Empresa: Itaú
+                  <br />
                   Principais requisitos
                 </CardJobContent>
                 <CardJobButton>Saiba Mais</CardJobButton>

@@ -21,9 +21,18 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfilePicture = styled.div`
+  background-color: #e5e5e5;
+  border-radius: 50%;
   width: 150px;
   height: 150px;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
 `;
 
 export const ProfileText = styled.div`
