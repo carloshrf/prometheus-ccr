@@ -8,7 +8,6 @@ import UserSubscription from '../pages/UserSubscription';
 import Jobs from '../pages/Jobs';
 import Partner from '../pages/Partner';
 import User from '../pages/User';
-import GlobalStyles from '../styles/Global';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 

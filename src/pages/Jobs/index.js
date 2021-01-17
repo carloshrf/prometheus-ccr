@@ -23,7 +23,6 @@ import {
 
 import { SliderItem } from "../../components/Carousel/styles";
 
-import api from "../../services/api";
 import TopBar from "../../components/TopBar";
 import Carousel from "../../components/Carousel";
 import Banner from "../../components/Banner";

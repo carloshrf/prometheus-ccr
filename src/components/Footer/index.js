@@ -13,7 +13,7 @@ const Footer = () => {
       <Contacts>
         <h1>Contato:</h1>
         <div>
-          <a>atendimento@prometheus.com.br</a>
+          <a href="/">atendimento@prometheus.com.br</a>
           <p>telefone: 11 2325-2525</p>
           <p>Rua Marechal Deodoro, 335</p>
           <p>Santo André - SP</p>
@@ -21,9 +21,9 @@ const Footer = () => {
       </Contacts>
       <SocialMedias>
         <h1>Nos siga nas redes sociais!</h1>
-        <a href="/"><img src={twtImg} alt="icone do twitter"/></a>
-        <a href="/"><img src={fbImg} alt="icone do facebook"/></a>
-        <a href="/"><img src={instImg} alt="icone do instagram"/></a>
+        <a href="https://twitter.com"><img src={twtImg} alt="icone do twitter"/></a>
+        <a href="https://www.facebook.com/"><img src={fbImg} alt="icone do facebook"/></a>
+        <a href="https://www.instagram.com/"><img src={instImg} alt="icone do instagram"/></a>
       </SocialMedias>
     </Container>
   );

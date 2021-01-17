@@ -11,7 +11,6 @@ import {
   ProfileContainer,
   ProfileText,
   ProfileTitle,
-  ProfilePoints,
   ProfileDescription,
   ProfileEdit,
   ContentSection,
@@ -185,6 +184,7 @@ const Partner = () => {
           </SliderItem>
         </Carousel>
       </ContentSection>
+      <Footer />
     </Container>
   );
 };
