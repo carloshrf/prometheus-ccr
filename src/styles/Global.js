@@ -10,11 +10,24 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
   }
 
-  span, p, h1 {
-    font-size: 26px;
+  span, p, h1, a, label, select, textarea, li, input[type=text] {
+    font-family: Poppins, sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  span, p, a {
+    font-size: 18px;
+  }
+
+  li {
+    list-style-type: none;
   }
 `;
 
