@@ -17,7 +17,7 @@ A partir dos interesses e empenho de cada usuário, conseguiremos não só exibi
 O grupo é formado pelos seguintes:
 
 <p align="center">
-<img  src="https://lh6.googleusercontent.com/E77ywyJqh325ggAxIaP7IJjhpJVWnKEhEaVVmiHKhHOBbChIi1fF1n9Vw8Xg2HCjpoTb6v7swncfGvmz94i3=w1366-h609-rw"  width="600"/>
+<img  src="https://lh6.googleusercontent.com/E77ywyJqh325ggAxIaP7IJjhpJVWnKEhEaVVmiHKhHOBbChIi1fF1n9Vw8Xg2HCjpoTb6v7swncfGvmz94i3=w1366-h609-rw"  width="800"/>
 </p>
 
 Todo o código foi desenvolvido por mim e pelo João Victor [(itsJoaoVictor)](https://github.com/itsJoaoVictor)
