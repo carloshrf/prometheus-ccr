@@ -44,7 +44,7 @@ Abaixo seguem algumas amostras das telas web.
 
 
 <p align="center">
-<img  src="https://lh6.googleusercontent.com/wOo9-rnpXGo8HSJPWHEyx1XuZWkZ90QvvkGd6tfqBvjq2bR3O2O_x0GWGKwg8mr0T4uhpwgImXUqa7DFPyG2=w1366-h609-rw"  width="600"/>
+<img  src="https://lh4.googleusercontent.com/To9FL4-bJd15ghk2J2a_FHuVe6U5AOMYOshiVaQYbR40AQnCxXMNnUCSHgBTw3mvIwP_Fh9WSs1gptC5zlUR=w1440-h789-rw"  width="600"/>
 </p>
 
 <br />
